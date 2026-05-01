@@ -29,9 +29,11 @@ services:
   - type: redis
     name: secureflow-redis
     plan: free
+    ipAllowList: [] # Restrict to internal Render services
 
 databases:
   - name: secureflow-db
     databaseName: secureflow
     user: secureflow
     plan: free
+    ipAllowList: [] # Restrict to internal Render services
