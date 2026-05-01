@@ -63,9 +63,10 @@ export default function Login() {
         <p className="muted" style={{ margin: 0 }}>
           new here? <Link to="/register">make an account</Link>
         </p>
-        <p className="help-text" style={{ marginTop: 10 }}>
-          demo login: <code>user@secureflow.dev</code> / <code>User@12345</code>
-        </p>
+        <div className="help-text" style={{ marginTop: 10 }}>
+          <p style={{ margin: '0 0 5px 0' }}>demo login: <code>user@secureflow.dev</code> / <code>User@12345</code></p>
+          <p style={{ margin: 0 }}>admin demo: <code>admin@secureflow.dev</code> / <code>admin@secureflow.dev1</code></p>
+        </div>
       </div>
     </div>
   );
